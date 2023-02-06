@@ -1,0 +1,101 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Whitney",
+      "cell": 65846,
+      "password": "1230",
+      "avatar": "https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg",
+      "inspirationalWords": "code, eat, sleep and code",
+      "isOnline": false
+    },
+    {
+      "id": 2,
+      "name": "Gloria",
+      "cell": 65446,
+      "password": "1230",
+      "avatar": "https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg",
+      "inspirationalWords": "code, eat, sleep and code",
+      "isOnline": false
+    },
+    {
+      "id": 3,
+      "name": "Jose",
+      "cell": 65746,
+      "password": "1230",
+      "avatar": "https://img.freepik.com/vector-premium/icono-circulo-usuario-anonimo-ilustracion-vector-estilo-plano-sombra_520826-1931.jpg",
+      "inspirationalWords": "code, eat, sleep and code",
+      "isOnline": false
+    }
+  ],
+  "conversations": [
+    {
+      "id": 1,
+      "userSender": 3,
+      "userReceptor": 2,
+      "menssengers": [
+        {
+          "id": 1,
+          "sendBy": 3,
+          "mensserger": "Hola, como estas?",
+          "isSeem": true
+        },
+        {
+          "id": 2,
+          "sendBy": 2,
+          "mensserger": "Muy bien y tu?",
+          "isSeem": true
+        },
+        {
+          "id": 3,
+          "sendBy": 3,
+          "mensserger": "Bien explotado, necesito ayuda!",
+          "isSeem": false
+        },
+        {
+          "id": 4,
+          "sendBy": 3,
+          "mensserger": "uyy como así?",
+          "isSeem": false
+        },
+        {
+          "id": 5,
+          "sendBy": 3,
+          "mensserger": "Qué mal!",
+          "isSeem": false
+        },
+        {
+          "id": 6,
+          "sendBy": 3,
+          "mensserger": "En qué te puedo ayudar?",
+          "isSeem": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "userSender": 1,
+      "userReceptor": 3,
+      "menssengers": [
+        {
+          "id": 1,
+          "sendBy": 1,
+          "mensserger": "Hola amigo, como estas?",
+          "isSeem": true
+        },
+        {
+          "id": 2,
+          "sendBy": 2,
+          "mensserger": "Muy bien y tu?",
+          "isSeem": true
+        },
+        {
+          "id": 3,
+          "sendBy": 3,
+          "mensserger": "Todo bien?",
+          "isSeem": false
+        }
+      ]
+    }
+  ]
+}
